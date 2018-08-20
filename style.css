@@ -1,0 +1,63 @@
+#image {
+    margin-top: 30px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.nav-tit{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+}
+
+body {
+    background-image: url('images/ajolote.png');
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+p{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.source, .container-circle {
+    position: relative;
+    height: 420px;
+    width: 40%;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    transition: all 0.4;
+}
+
+.container-circle {
+    z-index: 100;
+}
+
+.over{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0,8);
+    background-color: antiquewhite;
+    -webkit-transform: scale(1.1);
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: salmon;
+    cursor: move;
+}
+
+nav{
+    background-color: #aa66cc;
+}
+
+input {
+    margin-bottom: 1rem;
+}
